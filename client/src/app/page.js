@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Sidebar from "../app/components/Sidebar";
+import Feed from "../app/components/home/Feed";
 
 const styles ={
   wrapper: 'h-screen w-screen flex justify-center bg-black test-white select-none',
@@ -11,7 +12,7 @@ export default function Home() {
     <div className={styles.wrapper}>
       <div className={styles.content}>
         <Sidebar/>
-        <h2>Feed</h2>
+        <Feed/>
         <h2>Widgets</h2>
       </div>
     </div>
